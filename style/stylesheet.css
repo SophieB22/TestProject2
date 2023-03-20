@@ -1,0 +1,85 @@
+nav {
+    background-color: rgb(205, 196, 196);
+    padding: 5px;
+    border: solid rgb(246, 153, 168);
+    border-radius: 5px;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(204, 204, 204);
+    display: inline;
+    padding: 10px;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover { background-color: pink;}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2cm;
+}
+#active {
+    background-color: rgb(203, 97, 115);
+}
+.logo {
+    float: left; height: 50px; width: 50px;
+}
+header {
+    background-image: url(../images/ballet-shoes-image-copy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(235, 99, 122);
+}
+h1
+{
+    color: rgb(235, 99, 122);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+
+}
+#bigPic {
+    width: 85%;
+}
+#Maincontent {
+    float: left;
+    width: 70%;
+    border: 1px solid rgb(225, 111, 130);
+}
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer {
+    clear: both;
+    border: 1px solid rgb(220, 102, 122);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(205, 196, 196);
+    text-align: center;
+}
+aside {
+    border: 1px solid cyan;
+    float: right;
+    width: 18%;
+}
+aside ul li {
+    list-style-type: none;
+}
+aside ul li a {
+    color: rgb(106, 106, 200);
+    text-decoration: none;
+}
